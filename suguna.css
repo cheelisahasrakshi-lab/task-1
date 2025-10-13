@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px ;
+    font-family: "Noto Sans JP", sans-serif;
+}
+.header{
+    min-height: 100px;
+    width: 100%;
+    background-color:white;
+}
+.header_left{
+    height: 100px;
+    width: 35%;
+    float: left;
+}
+.header_left img{
+    height: 100px;
+    width: 450px;
+    margin: 0px 0px 0px 28px;
+    float: left;
+}
+.header_right{
+    height: 100px;
+    width: 65%;
+    float: left;
+}
+.header_right ul li{
+    float: left;
+    text-transform: capitalize;
+    list-style: none;
+    padding: 50px 0px 0px 20px;
+    margin: 2px 2px 0px px;
+    text-decoration: none;
+}
+.header_right ul li a{
+    padding-left: 0px 0px;
+    text-decoration: none;
+    color:black;
+}
+.header_right i{
+    margin: 52px 0px 0px 30px;
+    padding: 0px 0px 0px 0px;
+}
+.header_right ul li a:hover{
+  color: rgb(237, 126, 30);
+  font-size: 20px;
+}
+.main{
+    background-image: url(https://i.pinimg.com/736x/b6/71/21/b671214b9f63fc59eb5ef78a530c2d7d.jpg);
+    height: 400px;
+    width: 100%;
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* .main h2{
+padding: 120px 200px 0px 120px;
+font-family: sans-serif;
+margin: 14px 30px 30px 20px;
+float: right;
+font-size: 50px;
+}  */
+.main-1{
+    height:100px;
+    width: 50%;
+}
+.main-1 img{
+    border-radius: 20px;
+box-shadow: 2px 3px 5px darkgrey;
+height: 200px;
+width: 55%;
+margin: 40px 0px 0px 500px;
+}
+.main-2{
+    height: 50px;
+    width: 80%;
+    float: left;
+}
+.main-2 h1 {
+    height: 50px;
+    text-align: center;
+    padding: 0px 40px 80px 160px;
+    width: 80%;
+    margin: 155px 155px;
+    text-shadow: 1px 2px 3px;
+    color: rgb(171, 85, 14);
+}
+/* .main-2 p{
+    height: 500px;
+    text-align: center;
+    padding: 0px 40px 80px 160px;
+    width: 80%;
+    margin: 150px 150px;
+    text-shadow: 1px 2px 3px; 
+} */
+ .main-3{
+    height:500px;
+    width: 80%;
+    float: left;
+ }
+ .main-3 p{
+    height: 400px;
+    text-align: center;
+    padding: 0px 40px 80px 160px;
+    width: 95%;
+    margin: 150px 150px;
+    box-shadow: 2px 3px 5px darkgrey;
+    border-radius: 20px;
+    color: darkgrey;
+ }
+ .main-3 p:hover{
+    color: black;
+
+ }

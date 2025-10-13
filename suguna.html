@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="suguna.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>suguna</title>
+</head>
+<body>
+    <script>
+        // Common function for all dropdowns
+        function goToPage(selectobj){
+            let url = selectobj.value;
+            if(url){
+                window.location.href = url;
+            }
+        }
+    </script>
+
+    <div class="header">
+        <div class="header_left" data-aos="fade-right"
+        data-aos-duration="3000">
+            <img src="adc-rjy_new_logo.png" alt="no image">
+        </div>
+        <div class="header_right" data-aos="fade-left"
+        data-aos-duration="3000">
+            <ul>
+                <li><a href="sahasrahh1.html">home</a></li>
+
+                <!-- Teaching staff -->
+                <li>
+                    <select onchange="goToPage(this)" style="border: none; font-size: 19px; background-color: white; color: rgb(14, 11, 8);">
+                        <option value="">Teaching staff</option>
+                        <option value="computer.html">Computers</option>
+                        <option value="com.html">Commerce</option>
+                        <option value="lang.html">Languages</option>
+                        <option value="math.html">Apptitude & Maths</option>
+                        <option value="eng.html">English & Soft</option>
+                        <option value="robo.html">Robotics & Physics</option>
+                        <option value="micro.html">Microbio & Library</option>
+                    </select>
+                </li>
+
+                <!-- Non teaching staff -->
+                <li>
+                    <select onchange="goToPage(this)" style="border: none; font-size: 19px; background-color: white; color: rgb(10, 9, 8);">
+                        <option value="">Non teaching staff</option>
+                        <option value="office.html">Management</option>
+                        <option value="incharge.html">Incharges</option>
+                    </select>
+                </li>
+
+                <li><a href="lab.html">lab assistants</a></li>
+                <li><a href="naac.html">NAAC</a></li>
+                <li><a href="nss.html">NSS</a></li>
+                <li><a href="about.html">About us</a></li>
+            </ul>
+        </div>
+    </div> 
+
+    <div class="main" data-aos="fade-down"
+    data-aos-duration="3000">
+        <!-- <h2>SECRETORY</h2> -->
+    </div>
+    <div class="main-1" data-aos="fade-up"
+    data-aos-duration="3000">
+        <img src="director.webp" alt="no">
+    </div>
+    <div class="main-2" data-aos="fade-down"
+    data-aos-duration="3000">
+        <h1>N.SUGUNA REDDY</h1>
+    </div>
+    <div class="main-3" data-aos="fade-down"
+    data-aos-duration="3000">
+        <p><br>Sri Nallamilli Suguna Reddy as a secratory,I enjoy my association with ADITYA, for two reasons - the profound effect the people have on me and the way my ideas get energized day in and day out . In an institution, one or two persons who have original thinking are a tall order to ask for. But, look at ADITYA! Every second person has the native ability to think originally and generate original ideas.
+             <br>
+             <br>
+            I serve on the board of M/s.Soubhagya Projects Pvt Ltd, Director of Lakshya International School and Director for Aditya Educational Institutions, Surampalem for Department of Forensic Science and B-School.<br> I am proud to be part of the Forensic Science team and look forward to apply our originality and thinking to take ADITYA further.
+            <br>
+            <br>
+            An inspiring recognition for an inspiring leader! Dr. N. Suguna Reddy, Vice Chairman of the Indian Red Cross Society, Kakinada District, and Director of Aditya Educational Institutions, was honoured by Hon’ble Governor Shri S. <br>Abdul Nazeer for collecting the highest number of blood units in Andhra Pradesh in 2024. This recognition is a testament to our unwavering commitment to service and social responsibility.
+            
+            </p>
+    </div>
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>

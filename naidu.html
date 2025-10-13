@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="naidu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Naidu</title>
+</head>
+<body>
+    <script>
+        // Common function for all dropdowns
+        function goToPage(selectobj){
+            let url = selectobj.value;
+            if(url){
+                window.location.href = url;
+            }
+        }
+    </script>
+
+    <div class="header">
+        <div class="header_left" data-aos="fade-right"
+        data-aos-duration="3000">
+            <img src="adc-rjy_new_logo.png" alt="no image">
+        </div>
+        <div class="header_right" data-aos="fade-left"
+        data-aos-duration="3000">
+            <ul>
+                <li><a href="sahasrahh1.html">home</a></li>
+
+                <!-- Teaching staff -->
+                <li>
+                    <select onchange="goToPage(this)" style="border: none; font-size: 19px; background-color: white; color: rgb(14, 11, 8);">
+                        <option value="">Teaching staff</option>
+                        <option value="computer.html">Computers</option>
+                        <option value="com.html">Commerce</option>
+                        <option value="lang.html">Languages</option>
+                        <option value="math.html">Apptitude & Maths</option>
+                        <option value="eng.html">English & Soft</option>
+                        <option value="robo.html">Robotics & Physics</option>
+                        <option value="micro.html">Microbio & Library</option>
+                    </select>
+                </li>
+
+                <!-- Non teaching staff -->
+                <li>
+                    <select onchange="goToPage(this)" style="border: none; font-size: 19px; background-color: white; color: rgb(10, 9, 8);">
+                        <option value="">Non teaching staff</option>
+                        <option value="office.html">Management</option>
+                        <option value="incharge.html">Incharges</option>
+                    </select>
+                </li>
+
+                <li><a href="lab.html">lab assistants</a></li>
+                <li><a href="naac.html">NAAC</a></li>
+                <li><a href="nss.html">NSS</a></li>
+                <li><a href="about.html">About us</a></li>
+            </ul>
+        </div>
+    </div> 
+
+
+    <div class="main" data-aos="fade-up"
+    data-aos-duration="3000">
+        <!-- <h2>DIRECTOR</h2> -->
+    </div>
+    <div class="main-1" data-aos="fade-down"
+    data-aos-duration="3000">
+        <img src="naidu.jpg" alt="no">
+    </div>
+    <div class="main-2" data-aos="fade-up"
+    data-aos-duration="3000">
+        <h1>BVEL NAIDU</h1>
+    </div>
+    <div class="main-3" data-aos="fade-up"
+    data-aos-duration="3000">
+        <p>Sri Nallamilli Sesha Reddy as a founder cum chairman, promoted an educational society in the name and style of Aditya Academy at Kakinada in the year 1984, with a vision and mission to create a platform for holistic growth and success to students at all levels (i.e. from KG to PG). Aditya has made its entry into the educational arena with a public school to meet the needs of primary and secondary education.<br><br> In succession and with rapid strides, the academy established a number of Junior Colleges, Degree Colleges, PG Colleges, Engineering Colleges, Pharmacy Colleges, Nursing Colleges, and Teacher Training Institutions. The silver-jubilee educational group with 60,000 students in 60 institutions with 6000 staff across three districts in Andhra Pradesh has become the standard - bearer for quality education. In every stream, Aditya has become a spring-board for success through its powered vision, constant innovation and professional excellence.<br><br>
+            Aditya Engineering College, being the first of its kind in the district to be recognized by the AICTE and certified by the prestigious ISO 2000, speaks volumes of what ADITYA is.
+            Owing to the rapid changes in the field of education, subjects like Computer science, Bio-technology, Bio-chemistry, Micro-biology and Electronics have gained enormous significance as they provide great career opportunities.<br><br> Keeping this in view, ADITYA launched Advanced courses like Forensic Science, Data Sciences, Artificial Intelligence & Robotics, Digital Marketing and Animation in Graduation level.</p>
+    </div>
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
